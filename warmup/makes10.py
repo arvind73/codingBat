@@ -11,3 +11,8 @@ def makes10(a, b):
   elif a+b==10:
     return True
   return False
+
+***********OR****************
+
+def makes10(a,b):
+  return (a+b == 10 or a==10 or b==10)  # Checks condition either True or False
